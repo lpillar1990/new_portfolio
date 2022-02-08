@@ -1,42 +1,48 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { DiJavascript } from "react-icons/di";
+import { SiGit, SiSass, SiAdobephotoshop } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: "react",
+    Component: FaReact,
+    title: "React",
+    Description: () => <></>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
-  },
-  {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
-  },
-  {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
-  },
-  {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    slug: "javascript",
+    Component: DiJavascript,
+    title: "Javascript",
+    Description: () => <></>,
   },
   {
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
+    Description: () => <></>,
+  },
+  {
+    slug: "html",
+    Component: FaHtml5,
+    title: "HTML",
+    Description: () => <></>,
+  },
+  {
+    slug: "css",
+    Component: FaCss3Alt,
+    title: "CSS",
+    Description: () => <></>,
+  },
+  {
+    slug: "scss",
+    Component: SiSass,
+    title: "SCSS",
+    Description: () => <></>,
+  },
+  {
+    slug: "photoshop",
+    Component: SiAdobephotoshop,
+    title: "Photoshop",
+    Description: () => <></>,
   },
 ];

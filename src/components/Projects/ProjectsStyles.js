@@ -74,6 +74,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
+  height: 140px;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
@@ -82,7 +83,6 @@ export const CardInfo = styled.p`
   margin-top: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
 }
 `;
 
