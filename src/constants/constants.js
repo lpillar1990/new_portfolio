@@ -23,15 +23,6 @@ export const projects = [
     visit: 'https://northdownbarbellclub.netlify.app/',
     id: 2,
   },
-  {
-    title: 'Work In Progress',
-    description: "Keep an eye out here for any new projects I upload!",
-    image: '/images/loading.jpg',
-    tags: ['//'],
-    visit: '',
-    id: 3,
-  },
-
 ];
 
 export const TimeLineData = [
