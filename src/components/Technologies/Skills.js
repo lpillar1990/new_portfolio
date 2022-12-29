@@ -1,5 +1,11 @@
 import { DiJavascript } from "react-icons/di";
-import { SiGit, SiSass, SiAdobephotoshop } from "react-icons/si";
+import {
+  SiGit,
+  SiSass,
+  SiAdobephotoshop,
+  SiTypescript,
+  SiTailwindcss,
+} from "react-icons/si";
 import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 export const Skills = [
@@ -7,6 +13,12 @@ export const Skills = [
     slug: "react",
     Component: FaReact,
     title: "React",
+    Description: () => <></>,
+  },
+  {
+    slug: "typescript",
+    Component: SiTypescript,
+    title: "Typescript",
     Description: () => <></>,
   },
   {
@@ -25,6 +37,12 @@ export const Skills = [
     slug: "html",
     Component: FaHtml5,
     title: "HTML",
+    Description: () => <></>,
+  },
+  {
+    slug: "tailwindcss",
+    Component: SiTailwindcss,
+    title: "TailwindCSS",
     Description: () => <></>,
   },
   {
